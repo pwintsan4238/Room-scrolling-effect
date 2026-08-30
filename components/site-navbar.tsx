@@ -12,7 +12,7 @@ const NAV_LINKS = [
 
 function Logo() {
   return (
-    <a href="#top" className="flex items-center gap-3" aria-label="Architect Nicolai home">
+    <a href="#top" className="flex items-center gap-3" aria-label="Dream Home home">
       <svg
         width="34"
         height="34"
@@ -34,9 +34,9 @@ function Logo() {
         ))}
       </svg>
       <span className="font-sans text-sm font-semibold leading-tight tracking-wide">
-        Architect
+        Dream
         <br />
-        Nicolai
+        Home
       </span>
     </a>
   )

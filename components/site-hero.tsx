@@ -27,7 +27,7 @@ export function SiteHero() {
         <div className="mx-auto flex items-center justify-center gap-4">
           <span className="h-px w-16 bg-foreground/50" aria-hidden="true" />
           <span className="text-sm font-semibold tracking-wide text-foreground/90">
-            Welcome to Architect Nicolai
+            Welcome to Dream Home
           </span>
           <span className="h-px w-16 bg-foreground/50" aria-hidden="true" />
         </div>

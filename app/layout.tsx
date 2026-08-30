@@ -17,9 +17,9 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Architect Nicolai — Timeless Architecture',
+  title: 'Dream Home — Timeless Residential Design',
   description:
-    'Architecture should speak of its time and place but yearn for timelessness. Studio of Architect Nicolai — 350+ projects across residential and commercial design.',
+    'Architecture should speak of its time and place but yearn for timelessness. Dream Home — 350+ residential projects crafting warm, liveable spaces.',
   generator: 'v0.app',
   icons: {
     icon: [

@@ -12,7 +12,7 @@ export function SiteFooter() {
         </h2>
 
         <a
-          href="mailto:studio@architectnicolai.com"
+          href="mailto:studio@dreamhome.com"
           className="mt-10 inline-flex items-center gap-2 rounded-full bg-foreground px-8 py-4 text-base font-semibold text-background transition-transform hover:scale-[1.03]"
         >
           Estimate project
@@ -21,16 +21,16 @@ export function SiteFooter() {
 
         <div className="mt-20 grid gap-10 border-t border-foreground/10 pt-12 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <span className="font-serif text-xl text-foreground">Architect Nicolai</span>
+            <span className="font-serif text-xl text-foreground">Dream Home</span>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-foreground/60">
-              A studio crafting residential and commercial spaces that honour their time and place.
+              A studio crafting warm, liveable homes designed around the people who live in them.
             </p>
           </div>
 
           {[
             { title: "Studio", items: ["Services", "Projects", "About", "FAQ"] },
             { title: "Social", items: ["Instagram", "Behance", "LinkedIn", "Dribbble"] },
-            { title: "Contact", items: ["studio@architectnicolai.com", "+46 8 123 456", "Stockholm, SE"] },
+            { title: "Contact", items: ["studio@dreamhome.com", "+46 8 123 456", "Stockholm, SE"] },
           ].map((col) => (
             <div key={col.title}>
               <span className="text-sm font-semibold text-foreground">{col.title}</span>
@@ -48,7 +48,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-foreground/10 pt-8 text-sm text-foreground/50 sm:flex-row sm:items-center">
-          <span>&copy; {new Date().getFullYear()} Architect Nicolai. All rights reserved.</span>
+          <span>&copy; {new Date().getFullYear()} Dream Home. All rights reserved.</span>
           <span>Timeless architecture, thoughtfully made.</span>
         </div>
       </div>

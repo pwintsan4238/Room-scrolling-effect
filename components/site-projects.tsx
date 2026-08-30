@@ -16,41 +16,41 @@ type Project = {
 const PROJECTS: Project[] = [
   {
     index: "01",
-    title: "Making of Swedish Barn House",
+    title: "Sunlit open-plan living room",
     description:
-      "We aimed at making both exterior and interiors for this project, and the first thing I did was visiting the Swedish countryside for reference.",
+      "We designed the heart of this home around light and connection, opening the living space to the garden with full-height glazing and warm timber floors.",
     image: "/images/project-barn.png",
-    alt: "Black timber Swedish barn house glowing at night in the snow",
+    alt: "Cozy modern living room with a large sofa, wood floors, and floor-to-ceiling windows",
     bg: "oklch(0.36 0.045 250)",
     frame: "oklch(0.44 0.04 250)",
   },
   {
     index: "02",
-    title: "Architectural Design Studio Zero",
+    title: "Marble and oak family kitchen",
     description:
-      "We aimed at making both exterior and interiors for this project, and the first thing I did was study how light moves through the space.",
+      "A generous island anchors this kitchen, pairing honed marble with warm oak cabinetry so the space works as beautifully for cooking as it does for gathering.",
     image: "/images/project-studio.png",
-    alt: "Warm wood-slatted interior studio with leather sofa and sunlight",
+    alt: "Elegant modern kitchen with a marble island, oak cabinetry, and pendant lights",
     bg: "oklch(0.5 0.05 70)",
     frame: "oklch(0.58 0.05 70)",
   },
   {
     index: "03",
-    title: "Pink scandinavian design office",
+    title: "Calm garden-view master bedroom",
     description:
-      "We aimed at making both exterior and interiors for this project, and the first thing I did was build a bold, calming colour palette.",
+      "This restful master suite is built around a soft palette and a wide garden window, so mornings begin with daylight and a view of the trees.",
     image: "/images/project-pink.png",
-    alt: "Scandinavian bedroom with deep teal wall and blush pink accents",
+    alt: "Serene master bedroom with a plush bed, garden-view window, and soft blush and teal accents",
     bg: "oklch(0.42 0.07 175)",
     frame: "oklch(0.5 0.07 175)",
   },
   {
     index: "04",
-    title: "Whisky cellar work office brown",
+    title: "Spa-inspired ensuite bathroom",
     description:
-      "We aimed at making both exterior and interiors for this project, and the first thing I did was source rich, tactile materials.",
+      "For the master ensuite we sourced rich, tactile materials, centring the room on a freestanding tub and a dark-wood vanity for a quiet, spa-like retreat.",
     image: "/images/project-cellar.png",
-    alt: "Moody dark-wood home office and whisky cellar with warm lighting",
+    alt: "Luxurious modern bathroom with a freestanding soaking tub, dark wood vanity, and warm lighting",
     bg: "oklch(0.32 0.03 50)",
     frame: "oklch(0.4 0.03 50)",
   },
